@@ -162,10 +162,11 @@ function App() {
                               href={project.repo}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-slate-400 hover:text-slate-700 transition-colors"
+                              className="flex items-center gap-2 text-slate-400 hover:text-slate-700 transition-colors"
                               aria-label="View Source Code"
                             >
                               <Github className="h-5 w-5" />
+                              <span>GitHub Repo</span>
                             </a>
                           )}
                         </div>
