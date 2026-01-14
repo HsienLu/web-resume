@@ -46,7 +46,7 @@ export const resumeData = {
         "使用 Bootstrap 進行 RWD 切版與設計，使使用者介面具有一致性與響應式體驗。",
         "串接後端 API（Express + MySQL）處理會員帳號建立、驗證與第三方登入流程，並用 Axios 封裝請求邏輯。",
         "整合 Google API 進行第三方登入授權流程，提高使用者登入便利性。",
-        "使用 Ant Design 與 SweetAlert 優化互動元件與提示訊息，提升 UI/UX 友善度。",
+        "使用 Ant Design 優化互動元件與提示訊息，提升 UI/UX 友善度。",
         "參與資料庫設計（會員基本資料表與第三方註冊資料表）並撰寫企劃書與簡報文件，展示完整開發流程與設計思路。",
       ],
     },
