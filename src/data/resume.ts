@@ -23,12 +23,31 @@ export const resumeData = {
   projects: [
     {
       title: "教育平台｜ AI 教學助手：對話歷程記錄系統",
+      repo: "",
       tech: ["React", "Node.js", "MySQL"],
       desc: [
         "負責 對話歷程記錄與查詢 功能，讓師生互動可被完整追溯與管理",
         "串接前端頁面與後端 API，確保記錄寫入、查詢與顯示流程一致且穩定",
         "參與資料結構與查詢條件規劃，支援依使用者/課程或專案維度快速定位紀錄",
         "關鍵字：Chat Logs、Query Flow、可追溯性、可維運",
+      ],
+    }, {
+      title: "Key Traveler ─ 鍵盤電商網站 (團隊專案)",
+      repo: "https://github.com/HsienLu/Key_traveler_big-stable-",
+      tech: [
+        "React",
+        "Bootstrap",
+        "Node.js",
+        "Express",
+        "MySQL"
+      ],
+      desc: [
+        "以 React (Next.js) 架構開發完整前端頁面，負責會員登入、註冊、忘記密碼與第三方登入功能。",
+        "使用 Bootstrap 進行 RWD 切版與設計，使使用者介面具有一致性與響應式體驗。",
+        "串接後端 API（Express + MySQL）處理會員帳號建立、驗證與第三方登入流程，並用 Axios 封裝請求邏輯。",
+        "整合 Google API 進行第三方登入授權流程，提高使用者登入便利性。",
+        "使用 Ant Design 與 SweetAlert 優化互動元件與提示訊息，提升 UI/UX 友善度。",
+        "參與資料庫設計（會員基本資料表與第三方註冊資料表）並撰寫企劃書與簡報文件，展示完整開發流程與設計思路。",
       ],
     },
   ],

@@ -154,7 +154,21 @@ function App() {
                   <Card key={idx} className="group border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <CardHeader className="bg-slate-50/50 border-b border-slate-100">
                       <div className="flex flex-col md:flex-row justify-between md:items-center gap-2 mb-2">
-                        <CardTitle className="text-lg font-bold text-slate-800">{project.title}</CardTitle>
+                        <div className="flex items-center gap-2">
+                          <CardTitle className="text-lg font-bold text-slate-800">{project.title}</CardTitle>
+                          {/* @ts-ignore */}
+                          {project.repo && (
+                            <a
+                              href={project.repo}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-slate-400 hover:text-slate-700 transition-colors"
+                              aria-label="View Source Code"
+                            >
+                              <Github className="h-5 w-5" />
+                            </a>
+                          )}
+                        </div>
                       </div>
                       <div className="flex flex-wrap gap-2">
                         {project.tech.map(t => (
