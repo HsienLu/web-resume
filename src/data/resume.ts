@@ -64,7 +64,7 @@ export const resumeData = {
       ],
     },
     {
-      company: "硬體研發",
+      company: "硬體研發(台灣晶技2年 & 欣興電子1年)",
       role: "R&D",
       period: "4 年",
       desc: [
