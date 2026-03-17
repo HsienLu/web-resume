@@ -31,16 +31,11 @@ export const resumeData = {
         "參與資料結構與查詢條件規劃，支援依使用者/課程或專案維度快速定位紀錄",
         "關鍵字：Chat Logs、Query Flow、可追溯性、可維運",
       ],
-    }, {
+    },
+    {
       title: "Key Traveler ─ 鍵盤電商網站 (團隊專案)",
       repo: "https://github.com/HsienLu/Key_traveler_big-stable-",
-      tech: [
-        "React",
-        "Bootstrap",
-        "Node.js",
-        "Express",
-        "MySQL"
-      ],
+      tech: ["React", "Bootstrap", "Node.js", "Express", "MySQL"],
       desc: [
         "以 React (Next.js) 架構開發完整前端頁面，負責會員登入、註冊、忘記密碼與第三方登入功能。",
         "使用 Bootstrap 進行 RWD 切版與設計，使使用者介面具有一致性與響應式體驗。",
@@ -64,7 +59,7 @@ export const resumeData = {
       ],
     },
     {
-      company: "硬體研發(台灣晶技2年 & 欣興電子1年)",
+      company: "硬體研發(台灣晶技3年 & 欣興電子1年)",
       role: "R&D",
       period: "4 年",
       desc: [
